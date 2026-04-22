@@ -1,0 +1,3 @@
+Session13-BT01-Phần 1
+- Thiếu hibernate.dialect lại khiến Hibernate không thể khởi động tại vì Hibernate không tự biết đang dùng loại Database nào và Hibernate không biết generate SQL kiểu gì
+- Thuộc tính giúp Hibernate tự động tạo bảng (medicines, prescriptions) từ Java Class là hibernate.hbm2ddl.auto
